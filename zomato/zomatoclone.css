@@ -11,16 +11,18 @@
 
 body{
     font-family: Okra, Helvetica, sans-serif;
+    /* overflow: hidden; */
+    overflow-x: hidden;
 }
 .Top{
-    height: 120vh;
+    height: 780px;
     /* width: 100vw; */
-    /* border: solid red; */
+    /* border: solid gold; */
     background-color: azure;
 }
 
 .Top .TopUp{
-    height: 53%;
+    height: 420px;
     /* border: solid seagreen; */
     background-image: url(./images/bgimg.avif);
     background-position: center;
@@ -49,7 +51,7 @@ body{
     color: white;
     height: 100%;
     width: 40%;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 450;
     text-decoration: none;
     /* border: solid red; */
@@ -63,7 +65,7 @@ body{
     display: flex;
     justify-content: end;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     padding-right: 100px;
 
 }
@@ -73,15 +75,15 @@ body{
     color: white;
     height: 100%;
     width: 40%;
-    font-size: 25px;
-    font-weight: 450;
+    font-size: 18px;
+    font-weight: 400;
     text-decoration: none;
     /* border: solid red; */
     
 }
 
 .Top .TopUp .text{
-    height: 60%;
+    height: 280px;
     width: 70%;
     /* border: solid goldenrod; */
     display: flex;
@@ -104,7 +106,7 @@ body{
 
 .Top .TopUp .text .zomato img{
     height: 85%;
-    width: 32%;
+    width: 220px;
     /* border: solid red; */
 
 }
@@ -113,17 +115,18 @@ body{
     height: 25%;
     width: 100%;
     /* border: solid blueviolet; */
-    font-size: 52px;
+    font-size: 40px;
     font-weight: 400;
     color: white;
     font-family: Okra, Helvetica, sans-serif;
     /* margin: auto; */
-    padding-left: 55px;
+    /* padding-left: 55px; */
+    text-align: center;
 }
 
 .Top .TopUp .text .search{
-    width: 90%;
-    height: 22%;
+    width: 95%;
+    height: 20%;
     /* border: solid blueviolet; */
     display: flex;
     justify-content: center;
@@ -162,7 +165,7 @@ body{
     height: 100%;
     /* border: solid red; */
     width: 80%;
-    font-size: larger;
+    font-size: 15px;
     border: white;
 }
 
@@ -182,7 +185,7 @@ body{
 .Top .TopUp .text .search .sbox  i{
     /* border: solid rebeccapurple; */
     margin: auto;
-    font-size: 35px;
+    font-size: 22px;
     background-color: white;
     color: #C0C0C0;
     padding-top: 4px;
@@ -199,7 +202,7 @@ body{
     height: 100%;
     width: 100%;
     /* border: solid red; */
-    font-size: 20px;
+    font-size: 15px;
     border: white;
     padding-left: 20px;
     border-radius: 10px;
@@ -212,19 +215,20 @@ body{
 
 
 .Top .TopDown{
-    height: 47%;
-    /* border: solid rosybrown; */
+    height: 350px;
+    /* border: solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
-    column-gap: 25px;
+    /* flex-wrap: wrap; */
+    column-gap: 21px;
     background-color: #FFFFFF;
 }
 
 .Top .TopDown .order{
     height: 67%;
-    width: 29%;
-    border: solid .1px grey;
+    width: 350px;
+    border: solid .1px rgb(212, 210, 210);
     background-color: #FFFFFF;
     border-radius: 12px;
 }
@@ -288,22 +292,36 @@ body{
 
 .Top .TopDown .order .text .btext{
     font-family: Okra, Helvetica, sans-serif;
-    font-size: x-large;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 550;
     display: flex;
     justify-content: start;
+    padding-top: 10px;
+    /* border: solid red; */
     /* align-items: end; */
 }
 
 
 .Top .TopDown .order .text .stext{
     font-family: Okra, Helvetica, sans-serif;
-    font-size: x-large;
+    font-size: 17px;
     /* font-weight: 400; */
     display: flex;
     justify-content: start;
     align-items: start;
+    padding-top: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -315,7 +333,7 @@ body{
 
 
 .Collections{
-    height: 75vh;
+    height: 500px;
     /* width: 100vw; */
     /* border: solid purple; */
     background-color: #FFFFFF;
@@ -335,7 +353,7 @@ body{
     height: 50%;
     width: 90%;
     /* border: solid gold; */
-    font-size: 3.1rem;
+    font-size: 35px;
     /* font-weight: ; */
     
 }
@@ -352,14 +370,17 @@ body{
 .Collections .text .stext div{
     height: 100%;
     /* width: 100%; */
-    font-size: 1.7rem;
-    /* border: solid violet; */
+    font-size: 18px;
+    /* border: solid rgb(223, 101, 223); */
     display: flex;
     justify-content: center;
     align-items: start;
     color: gray;
 }
-
+.Collections .text .stext div:nth-child(2){
+    /* border: solid blue; */
+    font-size: 18px;
+}
 
 
 
@@ -446,12 +467,17 @@ body{
 }
 
 .Collections .images  .imgtxt .imgtxt1{
-    font-size: 30px;
+    font-size: 18px;
 }
 
 .Collections .images  .imgtxt .places{
-    font-size: 20px;
+    font-size: 15px;
 }
+
+
+
+
+
 
 
 
@@ -463,7 +489,7 @@ body{
 
 
 .PopularLocalities{
-    height: 65vh;
+    height: 480px;
     /* width: 100vw; */
     /* border: solid violet; */
     background-color: #FFFFFF;
@@ -471,8 +497,9 @@ body{
 
 .PopularLocalities .Delhi{
     height: 20%;
+    font-family: Okra, Helvetica, sans-serif;
     /* border: solid gold; */
-    font-size: 3.1rem;
+    font-size: 35px;
     padding-left:65px ;
     padding-top:20px ;
 }
@@ -504,10 +531,10 @@ body{
 
 
 .PopularLocalities .popplaces #name{
-    /* border: solid pink; */
+    /* border: solid rgb(219, 41, 71); */
     height: 50%;
     width: 100%;
-    font-size: 28px;
+    font-size: 22px;
     /* font-weight: 100; */
     padding-left: 20px;
     font-weight: 400;
@@ -518,34 +545,30 @@ body{
 
 
 .PopularLocalities .popplaces #namemore{
-    /* border: solid pink; */
+    /* border: solid rgb(68, 30, 36); */
     height: 100%;
     width: 100%;
-    font-size: 28px;
+    font-size: 19px;
     /* font-weight: 100; */
     padding-left: 20px;
     font-weight: 400;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
     
 }
-.PopularLocalities .popplaces #namemore i{
+/* .PopularLocalities .popplaces #namemore i{
     position: relative;
     padding-left: 10px;
     font-size: large;
-}
-.PopularLocalities .popplaces #place i{
-    position: relative;
-    left: 325px;
-    bottom: 10px;
-    font-size: large;
-}
+} */
+
 .PopularLocalities .popplaces #place{
     /* border: solid pink; */
     height: 50%;
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 18px;
     font-weight: 400;
     padding-left: 20px;
     display: flex;
@@ -555,7 +578,20 @@ body{
     color: grey;
 }
 
+.PopularLocalities .popplaces #place:nth-child(2){
+    /* border: solid blue; */
+    display: flex;
+    justify-content: space-between;
+}
 
+.PopularLocalities .popplaces #place i{
+    position: relative;
+    /* border: solid blue; */
+    font-size: 13px;
+    right: 18px;
+    bottom: 15px;
+
+}
 
 
 
@@ -566,16 +602,16 @@ body{
 
 
 .GetApp{
-    height: 73vh;
+    height: 500px;
     /* width: 100vw; */
     /* border: solid coral; */
     background-color:#FFFBF7;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 
 .GetApp .content{
     height: 100%;
-    width: 70vw;
+    width: 780px;
     /* border: solid purple; */
     margin: auto;
     display: flex;
@@ -583,8 +619,7 @@ body{
     align-items: center;
 }
 .GetApp .content .image{
-    width: 30%;
-    height: 60%;
+    height: 62%;
     /* border: solid black; */
     margin-top: 20px
 }
@@ -608,9 +643,9 @@ body{
     height: 15%;
     width: 100%;
     /* border: solid firebrick; */
-    font-size: 55px;
+    font-size: 45px;
     font-family: Okra, Helvetica, sans-serif;
-
+    font-size: 500;
 
 }
 
@@ -618,7 +653,7 @@ body{
     height: 15%;
     width: 100%;
     /* border: solid firebrick; */
-    font-size: 24px;
+    font-size: 18px;
     margin-top: 15px;
 }
 
@@ -638,7 +673,7 @@ body{
     height: 45%;
     width: 100%;
     /* border: solid blueviolet; */
-    font-size: 25px;
+    font-size: 20px;
     /* padding-left: 20px; */
     display: flex;
     align-items: center;
@@ -654,23 +689,26 @@ body{
 
 input[type="radio"]{
     /* display: none ; */
-    transform: scale(1.6);
+    transform: scale(1.3);
     position: relative;
     bottom: 2px;
 }
 
 
-.GetApp .content .form form .select input{
-    /* height: 60%; */
-    /* width: 100%; */
-    font-size: 30px;
+
+
+/* .GetApp .content .form form .select input{
+    height: 60%; 
+    width: 100%;
+    border: solid red;
+    font-size: 10px;
     size: 50px;
     border-radius: 12px;
-}
+} */
 
 
 .GetApp .content .form form .fill{
-    height: 55%;
+    height: 50%;
     width: 100%;
     /* border: solid blueviolet; */
     display: flex;
@@ -684,8 +722,8 @@ input[type="radio"]{
 .GetApp .content .form form .fill input{
     height: 100%;
     width: 70%;
-    /* border: solid chartreuse;    */
-    font-size: 25px;
+    border: solid 0.5px grey;   
+    font-size: 18px;
     padding-left: 10px;
     border-radius: 12px;
 
@@ -695,10 +733,10 @@ input[type="radio"]{
 
 .GetApp .content .form form .fill div{
     height: 100%;
-    width: 33%;
+    width: 35%;
     /* border: solid chartreuse; */
     /* position: relative; */
-    font-size: 25px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -714,7 +752,7 @@ input[type="radio"]{
     width: 100%;
     /* border: solid violet; */
     margin-top: 15px;
-    font-size: 20px;
+    font-size: 17px;
     display: flex;
     justify-content: start;
     align-items: end;
@@ -733,7 +771,7 @@ input[type="radio"]{
 }
 
 .GetApp .content .download .img1{
-    /* border: solid brown; */
+    border: solid #203A4F;
     width: 30%;
     height: 80%;
     background-image: url(./images/playstore.webp);
@@ -741,11 +779,12 @@ input[type="radio"]{
     background-position: center;
     background-size: cover;
     border-radius: 12px;
+    padding: 15px;
 }
 
 
 .GetApp .content .download .img2{
-    /* border: solid brown; */
+    border: solid #203A4F;
     width: 30%;
     height: 80%;
     background-image: url(./images/appstore.webp);
@@ -753,6 +792,8 @@ input[type="radio"]{
     background-position: center;
     background-size: cover;
     border-radius: 12px;
+    padding: 15px;
+
 }
 
 
@@ -773,7 +814,7 @@ input[type="radio"]{
 
 
 .Explore{
-    height: 75vh;
+    height: 450px;
     /* width: 100vw; */
     /* border: solid coral; */
     background-color:#FCFCFC
@@ -784,7 +825,7 @@ input[type="radio"]{
     width: 90%;
     /* border: solid gold ; */
     margin: auto;
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 500;
     display: flex;
     justify-content: start;
@@ -803,9 +844,10 @@ input[type="radio"]{
 }
 
 .Explore .box .boxs{
-    height: 17%;
-    width: 90%;
+    height: 19%;
+    width: 85%;
     border: solid .1px rgb(221, 220, 220) ;
+    /* border :solid blue; */
     border-radius: 12px;
     margin: 0px auto ;
     background-color: #FFFFFF;
@@ -813,14 +855,14 @@ input[type="radio"]{
     justify-content: space-between;
     align-items: center;
     font-family: Okra, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 21px;
     color: #615e5e;
     padding-left: 25px;
 }
 
 
 .Explore .box .boxs div i{
-    padding-right: 17px;
+    padding-right: 22px;
 }
 
 
@@ -835,9 +877,9 @@ input[type="radio"]{
 
 
 .footer{
-    height: 75vh;
+    height: 500px;
     /* width: 100vw; */
-    /* border: solid coral; */
+    /* border: solid rgb(209, 56, 0); */
     background-color:#F8F8F8
 }
 
@@ -852,8 +894,8 @@ input[type="radio"]{
 
 .footer .ftop .ftopleft{
     height: 100%;
-    width: 20%;
-    /* border: solid gold; */
+    width: 250px;
+    /* border: solid rgb(0, 0, 0); */
     display: flex;
     justify-content: end;
     align-items: end;
@@ -861,8 +903,8 @@ input[type="radio"]{
 
 
 .footer .ftop .ftopleft .zomato{
-    height: 80%;
-    width: 77%;
+    height: 100%;
+    width: 210px;
     /* border: solid goldenrod; */
     background-image: url(./images/zom.avif);
     background-position: center;
@@ -883,8 +925,9 @@ input[type="radio"]{
 
 .footer .ftop .ftopright .India{
     height: 38%;
-    width: 30%;
+    width: 140px;
     border: solid 1px rgb(224, 223, 223);
+    /* border: solid green; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -904,8 +947,9 @@ input[type="radio"]{
 
 .footer .ftop .ftopright .lang{
     height: 38%;
-    width: 30%;
+    width: 140px;
     border: solid .1px rgb(224, 223, 223);
+    /* border: solid green; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -915,34 +959,8 @@ input[type="radio"]{
 
 .footer .ftop .ftopright .lang i{
     font-size: 18px;
+    /* border: solid red; */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -962,41 +980,49 @@ input[type="radio"]{
     width: 85%;
     margin: auto;
     /* border: solid red ; */
-    position: relative;
-    right: 30px;
+    /* position: relative;
+    right: 30px; */
     display: flex;
+    flex-wrap: wrap;
 }
 
 
 .footer .fmiddle .middlecontent .one{
 
-    height: 100%;
+    /* height: 100%; */
     width: 20%;
     /* border: solid green; */
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    padding-top: 20px;
+    padding-top: 10px;
+    /* gap: 10px; */
 }
 
 
+
 .footer .fmiddle .middlecontent .one .main{
-    font-size: 20px;
+    font-size: 17px;
     color: black;
-    font-weight: 400;
+    font-weight: bold;
     display: flex;
     gap: 14px;
+    /* border: solid blue; */
+    letter-spacing: 1px;
 }
 
 
 .footer .fmiddle .middlecontent .one .sub{
     display: flex;
     flex-direction: column;
-    row-gap: 18px;
+    /* border: solid blue; */
+    row-gap: 12px;
     color: gray;
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 15px;
+    cursor: pointer;;
 }
 
 .footer .fmiddle .middlecontent .one .sub article:hover{
@@ -1012,6 +1038,7 @@ input[type="radio"]{
     display: flex;
     justify-content: start;
     align-items: center;
+    flex-wrap: wrap;
     /* column-gap: 30px; */
     /* flex-direction: row; */
 }
