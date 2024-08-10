@@ -1,1 +1,1 @@
-In this I am Created the HTML/Css projects
+In this, I have created the HTML/CSS projects
