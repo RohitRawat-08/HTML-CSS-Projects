@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#fbclone{
+    display: flex;
+    /* border: solid blue; */
+    flex-direction: column;
+    background-color: #F0F2F5;
+
+}
+
+
+
+
+
+
+
+/* main */
+
+#main{
+    /* border: solid red ; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+#content{
+    /* border: solid palevioletred; */
+    height: 30%;
+    width: 35%;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+}
+
+#fb{
+    font-size: 40px;
+    color: #0866FF;
+}
+
+#fbcontent{
+    font-size:x-large;
+    
+
+}
+
+#main2{
+    height: 70%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    /* border: solid rebeccapurple; */
+    gap: 30px;
+}
+#login{
+    /* border: solid purple; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 10px 2px grey;
+    border-radius: 15px;
+
+
+}
+
+.input1{
+    height: 15%;
+    width: 90%;
+    /* border: solid red; */
+    border-radius: 8px;
+    /* box-shadow: 1px 1px 10px 4px; */
+
+
+}
+    
+.input1 input{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: larger;
+    /* color: #9094AC; */
+}
+
+.input1 input:hover{
+    /* background-color: aliceblue; */
+}
+
+
+
+
+
+#log{
+    background-color: #1877F2;
+    text-align: center;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+#fp{
+    color: #0866FF;
+}
+
+#ca{
+    height: 15%;
+    width: 60%;
+    /* border: solid forestgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#36A420;
+    color: white ;
+    font-size: larger;
+    border-radius: 8px;
+
+}
+
+
+#lst{
+
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid red; */
+    font-size: small;
+}
+
+/* footer */
+
+#footer{
+    /* border: solid green; */
+    height: 26vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    }
+    
+    
+#ftdiv{
+    width: 75%;
+    height: 100%;
+    /* border: solid red ; */
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#details{
+    color: gainsboro;
+    text-decoration: none;
+    font-size: medium;
+}
+
+#lang{
+    padding-top: 13px;
+}
+
+
+
+
+
